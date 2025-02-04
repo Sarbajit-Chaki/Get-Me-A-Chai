@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 GetMeAChai – A Next.js Crowdfunding Platform  
 
-## Getting Started
+GetMeAChai is a **crowdfunding platform** where creators can **register, showcase their work, and receive funds** from fans and supporters. Inspired by Patreon, this platform enables content creators, artists, and influencers to monetize their audience through direct contributions.  
 
-First, run the development server:
+## 🌟 Features  
+- ✅ **Creator Registration & Profile Management** – Creators can sign up, manage their profile.  
+- ✅ **Secure Authentication** – Built with **Next-Auth** for seamless and secure user authentication.  
+- ✅ **Supporter Contributions** – Fans can contribute to their favorite creators through **Razorpay payment gateway**.  
+
+## 🛠️ Tech Stack  
+- **Frontend:** Next.js, React.js, Tailwind CSS  
+- **Backend:** Next.js API routes, MongoDB  
+- **Authentication:** Next-Auth  
+- **Payments:** Razorpay  
+- **Deployment:** Vercel  
+
+## 🌐 Live Demo  
+🔗 [Visit CrowdfundX](https://get-me-a-chaii.vercel.app/)  
+
+## 📌 How to Run Locally  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Clone the repository  
+git clone https://github.com/Sarbajit-chaki/Get-Me-A-Chai.git  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Navigate to the project folder  
+cd GetMeAChai  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Install dependencies  
+npm install  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Set up environment variables in `.env.local`  
+NEXTAUTH_SECRET=your-secret  
+DATABASE_URL=your-mongodb-url  
+RAZORPAY_KEY_ID=your-razorpay-key  
+RAZORPAY_KEY_SECRET=your-razorpay-secret  
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start the development server  
+npm run dev  
